@@ -23,4 +23,4 @@
 7. To run a specific test:\
 ``poetry run python manage.py test <path_to_specific_test>``\
 e.g.:
-``poetry run python manage.py test book.tests.tests.PrivateBookApiTests.test_list_books_filtered_success``
+``poetry run python manage.py test chat.tests.tests.PrivateChatApiTests.test_retrieve_number_of_unread_messages_success``

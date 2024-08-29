@@ -1,0 +1,122 @@
+# Logs
+logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# Runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+.dmypy.json
+
+
+# Cache
+.cache
+__pycache__/
+*.py[cod]
+
+
+# Configs
+.env
+.env_*
+!.env*.example
+.ropeproject
+local_settings.py
+settings.ini
+Makefile.def
+
+
+# Artifacts
+*.tgz
+*.mmdb
+.yarn-integrity
+*$py.class
+*.so
+*.sql
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.python-version
+
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+
+# Translations
+*.mo
+*.pot
+
+
+# Django stuff:
+db.sqlite3
+db.sqlite3-journal
+staticroot
+
+
+# Postgres database
+pgdata/
+
+
+# IPython
+profile_default/
+ipython_config.py
+
+
+# celery beat schedule file
+celerybeat-schedule
+
+.DS_Store
+
+
+# local env files
+.env.local
+.env.*.local
+venv/
+
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.*~
+*.bak
+settings.env
+*.swp
+
+
+# Django
+media
+*.tsbuildinfo
